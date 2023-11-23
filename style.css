@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(137, 118, 94);
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 168, 124);
+}
+
+.one2 {
+    padding: 0px 350px 0px 0px;
+}
+
+.option {
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    padding: 17px 35px 0px 35px;
+}
+
+.fame-j {
+    width: 1454px;
+    height: 400px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(250, 250, 248);
+    margin: 40px 0px 0px 0px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: beige;
+    padding: 0px 270px 0px 270px;
+}
