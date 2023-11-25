@@ -106,3 +106,16 @@ body {
   height: 600px;
   margin: 20px 0px 0px 0px;
 }
+
+.text5 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  background-color: bisque;
+  font-family: 'Pacifico', cursive;
+  padding-left: 850px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  padding-top: 195px;
+  margin: -815px 0px 0px 0px;
+}
