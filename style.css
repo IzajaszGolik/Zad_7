@@ -2,16 +2,12 @@ body {
   background-color: rgb(137, 118, 94);
 }
 
-@media screen and (max-width: 600px) {
-  .desktop-only {
-    display: none;
-  }
+@media screen and (max-width: 1080px) {
+
 }
 
-@media screen and (min-width: 601px) {
-  .mobile-only {
-    display: none;
-  }
+@media screen and (min-width: 770px) {
+  
 }
 
 .one {
@@ -118,4 +114,30 @@ body {
   padding-bottom: 200px;
   padding-top: 195px;
   margin: -815px 0px 0px 0px;
+}
+
+.pic5 {
+  display: flex;
+  justify-content: flex-start;
+  width: 500px; 
+  margin-top: 400px;
+}
+
+.pic6 {
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+width: 500px;
+height: 335px;
+padding-left: 955px; 
+margin-top: -335px;
+}
+
+.ltext {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  background-color: beige;
+  padding: 85px 570px 96px 570px;
+  margin-top: -335px;
 }
