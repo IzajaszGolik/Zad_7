@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   /* .header {
     grid-template-columns: 8fr 7fr 6fr 5fr;
   } */
@@ -117,31 +117,47 @@
 
   .title1-3 {
     padding-left: 25px;
-    padding-right: 25px;;
+    padding-right: 25px;
+    ;
   }
 
   .picture-statistic {
-    height: 500px;
     width: 100%;
     margin-top: 150px;
   }
 
   .background-four {
     display: flex;
-    align-items: center;
-    text-align: center; 
-    background-color: rgb(73, 50, 50);
+    justify-content: center;
     height: 500px;
     width: 100%;
   }
 
-  .picture4 {
+  .left-side {
     height: 500px;
-    width: 730px;
+    width: 50%;
   }
 
-  .title4 {
-    padding-left: 50px;
-    padding-right: 50px;
+  .picture4 {
+    height: 500px;
+    width: 100%
+  }
+
+  .right-side {
+    display: flex;
+    height: 500px;
+    width: 50%
+  }
+
+  .right-side-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(73, 50, 50);
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
