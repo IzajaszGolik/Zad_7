@@ -74,7 +74,7 @@
   .social-icon {
     padding: 10px 10px 10px 10px;
     width: 50px;
-    height: 50px
+    height: 50px;
   }
 
   .bussines-examples {
@@ -159,5 +159,124 @@
     color: white;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .left-right-statistic {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .statistic5-6 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+  }
+
+  .left {
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    width: 33.3%;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(243, 187, 102);
+    width: 33.3%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    width: 33.3%;
+  }
+
+  .picture5-6 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .icon-examples {
+    margin-top: 100px;
+  }
+
+  .icon-statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-size {
+    height: 50px;
+    width: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .text-icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 140px;
+  }
+
+  .text-icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding-left: 140px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(50, 65, 40);
+    color: white;
+  }
+
+  .left-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 33.3%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .middle-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%
+  }
+
+  .picture-footer {
+    height: 100px;
+    width: 100px;
+  }
+
+  .right-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 33.3%;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
